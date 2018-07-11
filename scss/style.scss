@@ -1,0 +1,60 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+.jumbotron {
+    background: url('../images/hero_image.jpeg') center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.carousel-img-1 {
+    background: url('../images/hero_image.jpeg') center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.carousel-img-2 {
+    background: url('../images/hike-1.jpeg') center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.carousel-img-3 {
+    background: url('../images/hike-2.jpeg') center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.text-black{
+    color: black;
+}
+.latest-article {
+    margin-top: 25px;
+}
+
+#about {
+    margin-top: 25px;
+}
+.navbar-nav > li{
+    margin-right: 25px;
+}
+.input-group {
+    width: 25%;
+}
+.borderless{
+    border: 0 none;
+}
+.footer-main {
+    background: #4E5D6C;
+    color: white;
+    font-size: 0.9rem;
+    padding: 1rem 0;
+    margin-top: 2.5rem;
+}
