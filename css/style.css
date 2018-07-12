@@ -6282,13 +6282,6 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
-.jumbotron {
-  background: url("../images/hero_image.jpeg") center center no-repeat;
-  background-size: cover;
-  height: 100vh;
-  display: flex;
-  align-items: center; }
-
 .carousel-img-1 {
   background: url("../images/hero_image.jpeg") center center no-repeat;
   background-size: cover;
@@ -6321,9 +6314,6 @@ a.text-dark:hover, a.text-dark:focus {
 
 #about {
   margin-top: 25px; }
-
-.navbar-nav > li {
-  margin-right: 25px; }
 
 .input-group {
   width: 25%; }

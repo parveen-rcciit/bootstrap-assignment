@@ -1,13 +1,4 @@
 @import "node_modules/bootstrap/scss/bootstrap";
-
-.jumbotron {
-    background: url('../images/hero_image.jpeg') center center no-repeat;
-    background-size: cover;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-}
-
 .carousel-img-1 {
     background: url('../images/hero_image.jpeg') center center no-repeat;
     background-size: cover;
@@ -43,9 +34,6 @@
 }
 #about {
     margin-top: 25px;
-}
-.navbar-nav > li{
-    margin-right: 25px;
 }
 .input-group {
     width: 25%;
