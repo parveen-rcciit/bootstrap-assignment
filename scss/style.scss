@@ -1,31 +1,8 @@
 @import "node_modules/bootstrap/scss/bootstrap";
-.carousel-img-1 {
-    background: url('../images/hero_image.jpeg') center center no-repeat;
-    background-size: cover;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-}
+@import "_base.scss";
+@import "_layout.scss";
 
-.carousel-img-2 {
-    background: url('../images/hike-1.jpeg') center center no-repeat;
-    background-size: cover;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-}
 
-.carousel-img-3 {
-    background: url('../images/hike-2.jpeg') center center no-repeat;
-    background-size: cover;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-}
-
-.text-black{
-    color: black;
-}
 .latest-article {
     margin-top: 25px;
 }
@@ -33,7 +10,7 @@
     color: white !important;
 }
 #about {
-    margin-top: 25px;
+    margin-top: 25px; 
 }
 .input-group {
     width: 25%;
@@ -41,14 +18,9 @@
 .borderless{
     border: 0 none;
 }
-.footer-main {
-    background: #4E5D6C;
-    color: white;
-    font-size: 0.9rem;
-    padding: 1rem 0;
-    margin-top: 2.5rem;
+.text-black{
+    color: black;
 }
-
-.footer-main h6{
-        padding-bottom: 10px;
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #4E5D6C !important;
 }

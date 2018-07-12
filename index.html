@@ -44,10 +44,10 @@
           </div>
         </li>
       </ul>
-       <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search for treks, tips..." aria-label="Search">
-      <button class="btn btn-primary my-2 my-sm-0" type="submit">Search</button>
-    </form>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search for treks, tips..." aria-label="Search">
+        <button class="btn btn-primary my-2 my-sm-0" type="submit">Search</button>
+      </form>
       <!--<div class="input-group w-25 p-2">
         <input type="text" class="form-control" placeholder="Search for treks and tips" aria-label="Search for treks and tips">
         <div class="input-group-append">
@@ -97,7 +97,7 @@
     <div class="section-content">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-6 pt-1">
             <h4>Have you ever wished for a Best Hiking Tips expert to answer your questions about how to hike?</h4>
             <p class="lead"> You've hit the jackpot! Women hikers world wide have the same basic hiking questions:</p>
             <div class="accordion" id="hikingQueryAccordion">
@@ -160,19 +160,35 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 pt-1">
             <h4>Best Himalayan Treks</h4>
-            <div class="col-md-12">
-              <h5>Kashmir Great Lakes</h5>
-              <p>Kashmir Great Lakes is the prettiest trek in India. Some treks come close to it, but at the end of the day, it is always the Kashmir Great Lakes (KGL) that is our most beautiful trek.</p>
-            </div>
-            <div class="col-md-12">
-              <h5>Hampta Pass</h5>
-              <p>Hampta Pass is an unusual, special pass. It climbs out of lush green valleys of Kullu to a perpendicular overhang, high in the mountains. The overhang you stand on is almost like a balcony view to a different world below: the deserts of Lahaul.</p>
-            </div>
-            <div class="col-md-12">
-              <h5>Sandakphu</h5>
-              <p>Sandakphu, being the highest peak in West Bengal, offers grand views of the world’s tallest peaks. Lhotse and Makalu, the fourth and fifth highest peaks in the world stand tall at 8,516m and 8,463m, trying to outdo the world’s tallest peak.</p>
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true"><b>Kashmir Great Lakes</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false"><b>Hampta Pass</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false"><b>Sandakphu</b></a>
+              </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+              <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                <p>Kashmir Great Lakes is the prettiest trek in India. Some treks come close to it, but at the end of the day, it is always the Kashmir Great Lakes (KGL) that is our most beautiful trek.</p>
+                <p>It is not on every trek that you get to see five beautiful alpine lakes. Each lake competing with the other in beauty that is almost divine. What’s more, these lakes come one right after the other. So everyday there is a new one to look forward to.</p>
+                <p>What makes these lakes even prettier are the snow patches that feed these lakes. You see them sliding off the mountain into the lakes. Sometimes you’ll see milky white icebergs floating on the lake’s inky blue surface. What is even lovelier are the lush green, grassy shores of the lakes. To get a chance to go for a long walk on the shores of these lakes is pure trekking bliss.</p>
+              </div>
+              <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                <p>Hampta Pass is an unusual, special pass. It climbs out of lush green valleys of Kullu to a perpendicular overhang, high in the mountains. The overhang you stand on is almost like a balcony view to a different world below​: the deserts of Lahaul. From the pass, you see the Lahaul valley in one wide panoramic sweep. It is one the most dramatic twists in landscape you’ll see!</p>
+                <p>None of our moderate level treks offer such sudden changes in scenery as the Hampta Pass trek.</p>
+                <p>Added to this, each of the campsites on this trek are very pretty – Jobra which lies at the edge of the forest , the wildflower meadows of Jwara campsite, the river delta camp of Balu Ka Ghera, the desert oasis that is Shea Goru and picturesque Chhatru, besides Chandrabhaga​ river. Every day of this trek brings forth a different terrain to experience. Do the trek for its rapid, dramatic scenery changes and, of course, the novel pass-crossing.</p>
+              </div>
+              <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                <p>Sandakphu, being the highest peak in West Bengal, offers grand views of the world’s tallest peaks. Lhotse and Makalu, the fourth and fifth highest peaks in the world stand tall at 8,516m and 8,463m, trying to outdo the world’s tallest peak. But how can they? After all, the Everest stands between them, towering over everything!</p>
+                <p>On the other hand, Kanchenjunga, the third highest peak, stands with its family at 8,586m.</p>
+                <p>The Kanchenjunga cluster is famously called The Sleeping Buddha, thanks to its appearance. Mt. Kumbhakarna forms the head and face of Buddha, while Kanchenjunga forms the upper body. The other peaks that make up The Sleeping Buddha are Kokthang, Rathong, Frey, Kabru South, Kabru North, Simvo, Mt. Pandim, Tenzingkhang, Japanu, Narsing.</p>
+              </div>
             </div>
           </div>
         </div>
@@ -212,7 +228,7 @@
       </div>
     </div>
   </section>
-  <footer class="footer-main">
+  <footer>
     <div class="container">
       <div class="row">
         <div class="col-sm-4">
