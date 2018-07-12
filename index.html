@@ -3,9 +3,11 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Hiking The Himalayas</title>
   <link rel="stylesheet" type="text/css" href="./css/style.css">
   <link rel="stylesheet" href="https://bootswatch.com/4/superhero/bootstrap.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -95,26 +97,65 @@
           <div class="col-md-6">
             <h4>Have you ever wished for a Best Hiking Tips expert to answer your questions about how to hike?</h4>
             <p class="lead"> You've hit the jackpot! Women hikers world wide have the same basic hiking questions:</p>
-            <ul class="list-group">
-              <li class="list-group-item d-flex justify-content-between align-items-center borderless">
-                <span>How do I <b>start hiking?</b></span>
-              </li>
-              <li class="list-group-item d-flex justify-content-between align-items-center borderless">
-                <span>Do I have the <b>right hiking gear?</b></span>
-              </li>
-              <li class="list-group-item d-flex justify-content-between align-items-center borderless">
-                <span>How do I plan for <b>my first hike?</b></span>
-              </li>
-              <li class="list-group-item d-flex justify-content-between align-items-center borderless">
-                <span>What can I do to <b>minimize my hiking aches and pains</b> after a long day on the trail?</span>
-              </li>
-              <li class="list-group-item d-flex justify-content-between align-items-center borderless">
-                <span>What should be on my <b>backpacking list?</b></span>
-              </li>
-              <li class="list-group-item d-flex justify-content-between align-items-center borderless">
-                <span><b>Backpacking food ideas</b> - where do I start?</span>
-              </li>
-            </ul>
+            <div class="accordion" id="hikingQueryAccordion">
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <span>How do I <b>start hiking?</b></span>
+            </button>
+                  </h5>
+                </div>
+
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#hikingQueryAccordion">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <span>How do I plan for <b>my first hike?</b></span>
+            </button>
+                  </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#hikingQueryAccordion">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <span>What should be on my <b>backpacking list?</b></span>
+            </button>
+                  </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#hikingQueryAccordion">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingFour">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              <span>Do I have the <b>right hiking gear?</b></span>
+            </button>
+                  </h5>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#hikingQueryAccordion">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="col-md-6">
             <h4>Best Himalayan Treks</h4>
@@ -136,36 +177,36 @@
     </div>
   </section>
   <section class="latest-article">
-   <div class="container">
-    <div class="latest-article-heading">
-      <h3>Latest Articles</h3>
-    </div>
-    <div class="card-deck">
-      <div class="card text-black bg-light mb-3">
-        <img class="card-img-top" src="./images/roopkund-lake.jpg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Why Roopkund is a great trek</h5>
-          <p class="card-text">The vast greenery of the twin meadows of Ali and Bedni Bugyal. The thrilling climb over snow to reach the skeleton lake of Roopkund. Trek through the oak forests near Wan and a the climb to Junargali </p>
-          <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
+    <div class="container">
+      <div class="latest-article-heading">
+        <h3>Latest Articles</h3>
+      </div>
+      <div class="card-deck">
+        <div class="card text-black bg-light mb-3">
+          <img class="card-img-top" src="./images/roopkund-lake.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Why Roopkund is a great trek</h5>
+            <p class="card-text">The vast greenery of the twin meadows of Ali and Bedni Bugyal. The thrilling climb over snow to reach the skeleton lake of Roopkund. Trek through the oak forests near Wan and a the climb to Junargali </p>
+            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
+          </div>
+        </div>
+        <div class="card text-white bg-dark mb-3">
+          <img class="card-img-top" src="./images/snow-season.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">When will you find snow on Himalayan treks in India</h5>
+            <p class="card-text">Use this guide to plan your next trek in the Himalayas. Learn when you’ll get to trek in snow!Getting to see snow on a trek is all about timing. If you’re on the right trail during the right month, you will get to see snow.</p>
+            <!--<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
+          </div>
+        </div>
+        <div class="card text-black bg-light mb-3">
+          <img class="card-img-top" src="./images/solo-trek.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Trekking Alone? Here Are Tips From An Expert Solo Trekker</h5>
+            <p class="card-text">Trekking on your own, without the support of an organisation is a completely different ball game, its truly challenging but adventurous. I learnt this many years ago when I’d just started my trekking journey.</p>
+            <!--<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
+          </div>
         </div>
       </div>
-      <div class="card text-white bg-dark mb-3">
-        <img class="card-img-top" src="./images/snow-season.jpg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">When will you find snow on Himalayan treks in India</h5>
-          <p class="card-text">Use this guide to plan your next trek in the Himalayas. Learn when you’ll get to trek in snow!Getting to see snow on a trek is all about timing. If you’re on the right trail during the right month, you will get to see snow.</p>
-          <!--<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
-        </div>
-      </div>
-      <div class="card text-black bg-light mb-3">
-        <img class="card-img-top" src="./images/solo-trek.jpg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Trekking Alone? Here Are Tips From An Expert Solo Trekker</h5>
-          <p class="card-text">Trekking on your own, without the support of an organisation is a completely different ball game, its truly challenging but adventurous. I learnt this many years ago when I’d just started my trekking journey.</p>
-          <!--<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
-        </div>
-      </div>
-    </div>
     </div>
   </section>
   <footer class="footer-main">
@@ -177,9 +218,16 @@
         </div>
         <div class="col-sm-4">
           <h6>Follow me on the web</h6>
-          <a href="https://www.twitter.com/" class="font-weight-bold pr-3">twitter</a>
-          <a href="https://www.facebook.com/" class="font-weight-bold pr-3">facebook</a>
-          <a href="https://www.youtube.com/" class="font-weight-bold pr-3">youtube</a>
+          <!--Facebook-->
+          <button type="button" class="btn btn-fb" aria-label="facebook"><i class="fa fa-facebook"></i></button>
+          <!--Twitter-->
+          <button type="button" class="btn btn-tw" aria-label="twitter"><i class="fa fa-twitter"></i></button>
+          <!--Linkedin-->
+          <button type="button" class="btn btn-li" aria-label="linkedin"><i class="fa fa-linkedin"></i></button>
+          <!--Instagram-->
+          <button type="button" class="btn btn-ins" aria-label="instagram"><i class="fa fa-instagram"></i></button>
+          <!--Youtube-->
+          <button type="button" class="btn btn-yt" aria-label="youtube"><i class="fa fa-youtube"></i></button>
         </div>
         <div class="col-sm-4">
           <p>Thousands of tired, nerve-shaken, over-civilized people are beginning to find out that going to the mountains is going home; that wildness is a necessity.</p>
